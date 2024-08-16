@@ -15,7 +15,7 @@ export default function Gears() {
         <Row>
           {gears.map((item) => (
             <Col
-            className="hover:scale-105 transition-all duration-300"
+             className="hover:scale-105 transition-all duration-300"
               style={{ margin: "10px 0px"}}
               key={item.id}
               lg="4"
